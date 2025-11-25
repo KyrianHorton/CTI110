@@ -6,7 +6,7 @@
 import random
 
 def disperse_change(change):
-    """Takes a float amount of change and prints the number of each coin needed."""
+   
     
     # Convert to cents to avoid floating-point errors
     cents = int(round(change * 100))
@@ -54,3 +54,4 @@ def main():
 
 # Call main function
 main()
+
